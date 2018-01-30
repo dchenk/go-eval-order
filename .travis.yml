@@ -1,0 +1,19 @@
+language: go
+
+go:
+  - 1.2.x
+  - 1.3.x
+  - 1.4.x
+  - 1.5.x
+  - 1.6.x
+  - 1.7.x
+  - 1.8.x
+  - 1.9.x
+
+env:
+  - GIMME_ARCH=amd64
+  - GIMME_ARCH=386
+
+os:
+  - linux
+  - osx
